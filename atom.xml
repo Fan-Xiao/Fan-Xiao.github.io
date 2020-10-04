@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Fan-Xiao.github.io</id>
+    <id>https://fanxiao.github.io</id>
     <title>fanxiao</title>
-    <updated>2020-10-04T09:57:03.347Z</updated>
+    <updated>2020-10-04T11:47:26.784Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Fan-Xiao.github.io"/>
-    <link rel="self" href="https://Fan-Xiao.github.io/atom.xml"/>
+    <link rel="alternate" href="https://fanxiao.github.io"/>
+    <link rel="self" href="https://fanxiao.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://Fan-Xiao.github.io/images/avatar.png</logo>
-    <icon>https://Fan-Xiao.github.io/favicon.ico</icon>
+    <logo>https://fanxiao.github.io/images/avatar.png</logo>
+    <icon>https://fanxiao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, fanxiao</rights>
     <entry>
         <title type="html"><![CDATA[123]]></title>
-        <id>https://Fan-Xiao.github.io/post/123/</id>
-        <link href="https://Fan-Xiao.github.io/post/123/">
+        <id>https://fanxiao.github.io/post/123/</id>
+        <link href="https://fanxiao.github.io/post/123/">
         </link>
         <updated>2020-10-04T09:42:13.000Z</updated>
         <content type="html"><![CDATA[<p>123123131</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://Fan-Xiao.github.io/post/hello-gridea/</id>
-        <link href="https://Fan-Xiao.github.io/post/hello-gridea/">
+        <id>https://fanxiao.github.io/post/hello-gridea/</id>
+        <link href="https://fanxiao.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
