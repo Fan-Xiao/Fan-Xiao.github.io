@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Fan-Xiao.github.io</id>
     <title>fanxiao</title>
-    <updated>2020-10-04T09:31:47.391Z</updated>
+    <updated>2020-10-04T09:42:49.606Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Fan-Xiao.github.io"/>
     <link rel="self" href="https://Fan-Xiao.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://Fan-Xiao.github.io/images/avatar.png</logo>
     <icon>https://Fan-Xiao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, fanxiao</rights>
+    <entry>
+        <title type="html"><![CDATA[123]]></title>
+        <id>https://Fan-Xiao.github.io/post/123/</id>
+        <link href="https://Fan-Xiao.github.io/post/123/">
+        </link>
+        <updated>2020-10-04T09:42:13.000Z</updated>
+        <content type="html"><![CDATA[<p>123123131</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Fan-Xiao.github.io/post/hello-gridea/</id>
