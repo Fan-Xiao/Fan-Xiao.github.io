@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.header-m {
+  display: none; }
+
+.onload {
+  overflow: hidden;
+  position: fixed;
+  transition: all .5s ease;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #C7EDCC;
+  z-index: 1000; }
+  .onload .onload-text {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    color: #00000080;
+    transition: all 1s ease;
+    position: relative;
+    background: -moz-linear-gradient(left, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left, right, color-stop(0%, #000000), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(left, #000000 0%, #ffffff 100%);
+    background: -o-linear-gradient(left, #000000 0%, #ffffff 100%);
+    background: -ms-linear-gradient(left, #000000 0%, #ffffff 100%);
+    background: linear-gradient(to right, #000000 0%, #ffffff 100%);
+    top: 40%;
+    width: 100%;
+    text-align: center; }
+    .onload .onload-text .bug {
+      position: absolute;
+      animation: myload 3s infinite;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 50px;
+      background-color: green; }
+
+@keyframes myload {
+  0% {
+    left: 0;
+    width: 10%;
+    background-color: red; }
+  25% {
+    left: 25%;
+    width: 20%;
+    background-color: yellow; }
+  50% {
+    left: 50%;
+    width: 10%;
+    background-color: pink; }
+  75% {
+    left: 75%;
+    width: 20%;
+    background-color: lightblue; }
+  100% {
+    left: 100%;
+    width: 10%;
+    background-color: lightsteelblue; } }
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 25px 0px #767676; }
+  .header .header-contain {
+    margin: 0 auto;
+    height: 100%;
+    min-width: 900px;
+    max-width: 1200px; }
+    .header .header-contain .logo {
+      margin-top: 24px;
+      float: left; }
+    .header .header-contain .nav {
+      float: right;
+      height: 100%;
+      position: relative; }
+      .header .header-contain .nav .nav-list {
+        float: left;
+        width: 110px;
+        height: 100%; }
+        .header .header-contain .nav .nav-list a {
+          color: #767676;
+          line-height: 100px;
+          float: right;
+          font-size: 14px; }
+        .header .header-contain .nav .nav-list a.active {
+          color: #668aca;
+          font-size: 18px;
+          position: relative; }
+        .header .header-contain .nav .nav-list a:hover {
+          color: #668aca;
+          font-size: 18px; }
+      .header .header-contain .nav .nav-check {
+        display: block;
+        position: absolute;
+        left: 522px;
+        height: 1px;
+        width: 20px;
+        bottom: 34px;
+        background-color: #668aca;
+        transition: all 0.5s ease 0.1s; }
+
+.title {
+  width: 1200px;
+  margin: 20px auto 0; }
+  .title .title-contain {
+    float: left;
+    font-size: 14px; }
+    .title .title-contain .blue {
+      color: #668aca; }
+
+.news {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 200px; }
+  .news .news-contain {
+    width: 1200px;
+    margin: 0 auto; }
+    .news .news-contain .pp {
+      display: inline-block;
+      width: 600px;
+      height: 400px;
+      background-size: cover;
+      float: none;
+      margin-bottom: 30px; }
+    .news .news-contain .pp:nth-child(1) {
+      background-image: url("../img/news-left1.png"); }
+    .news .news-contain .pp:nth-child(3) {
+      background-image: url("../img/news-left2.png"); }
+    .news .news-contain .news-text {
+      float: right;
+      margin-right: 60px;
+      width: 510px;
+      color: #767676; }
+      .news .news-contain .news-text a {
+        transition: all 1s ease;
+        color: green; }
+      .news .news-contain .news-text a:hover {
+        color: blue; }
+      .news .news-contain .news-text .news-list {
+        margin-bottom: 60px; }
+        .news .news-contain .news-text .news-list .text-title {
+          font-weight: bold;
+          font-size: 18px;
+          width: 100%; }
+          .news .news-contain .news-text .news-list .text-title .title-left {
+            float: left; }
+          .news .news-contain .news-text .news-list .text-title .title-right {
+            float: right; }
+        .news .news-contain .news-text .news-list .text-title::after {
+          content: "";
+          display: block;
+          clear: both; }
+        .news .news-contain .news-text .news-list .text-essay {
+          margin-top: 20px;
+          font-size: 14px; }
+  .news .news-contain::after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.footer {
+  height: 260px;
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden; }
+  .footer .footer-contain {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    color: #767676;
+    padding-top: 100px; }
+    .footer .footer-contain div {
+      float: left; }
+    .footer .footer-contain .footer-contain-left {
+      text-align: center;
+      width: 387px; }
+      .footer .footer-contain .footer-contain-left p {
+        font-size: 16px;
+        margin-bottom: 5px; }
+      .footer .footer-contain .footer-contain-left a {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        margin: 0 10px; }
+      .footer .footer-contain .footer-contain-left .wb {
+        background-image: url("../img/index-wb.png"); }
+      .footer .footer-contain .footer-contain-left .wx {
+        background-image: url("../img/index-wx.png"); }
+      .footer .footer-contain .footer-contain-left .qq {
+        background-image: url("../img/index-qq.png"); }
+    .footer .footer-contain .footer-contain-center {
+      width: 435px;
+      border-right: 1px solid #767676;
+      border-left: 1px solid #767676; }
+      .footer .footer-contain .footer-contain-center p {
+        text-indent: 5rem;
+        font-size: 14px; }
+    .footer .footer-contain .footer-contain-right {
+      width: auto; }
+      .footer .footer-contain .footer-contain-right p {
+        text-indent: 5rem;
+        font-size: 14px; }
+
+/*# sourceMappingURL=news.css.map */

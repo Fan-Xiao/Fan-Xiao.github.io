@@ -1,0 +1,146 @@
+.header {
+  display: none; }
+
+.header-m {
+  display: block;
+  height: 65px;
+  width: 100%;
+  background-color: #ffffff; }
+  .header-m .header-contain-m {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .header-m .header-contain-m .logo {
+      width: 35%;
+      height: 45%;
+      margin-left: 12px;
+      margin-top: 20px; }
+    .header-m .header-contain-m .nav {
+      transition: all .5s ease;
+      overflow: hidden;
+      height: 0;
+      font-size: 18px;
+      width: 200px;
+      position: absolute;
+      right: 0;
+      background-color: #ffffff80;
+      top: 65px;
+      z-index: 500; }
+      .header-m .header-contain-m .nav .nav-list {
+        margin: 20px auto 20px;
+        text-align: center; }
+        .header-m .header-contain-m .nav .nav-list a {
+          color: #767676; }
+    .header-m .header-contain-m .menu {
+      margin: 20px 10px 0 0;
+      float: right; }
+      .header-m .header-contain-m .menu button {
+        height: 30px;
+        width: 30px;
+        font-size: 18px; }
+
+.title {
+  width: 100%;
+  margin: 0 auto; }
+  .title .title-contain {
+    float: left;
+    font-size: 14px; }
+    .title .title-contain .blue {
+      color: #668aca; }
+
+.news {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 200px; }
+  .news .news-contain {
+    width: 100%;
+    margin: 0 auto; }
+    .news .news-contain .pp {
+      display: inline-block;
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      float: none;
+      margin-bottom: 30px; }
+    .news .news-contain .pp:nth-child(1) {
+      background-image: url("../img/news-left1.png"); }
+    .news .news-contain .pp:nth-child(3) {
+      background-image: url("../img/news-left2.png"); }
+    .news .news-contain .news-text {
+      float: none;
+      width: 90%;
+      margin: 0 auto;
+      color: #767676; }
+      .news .news-contain .news-text a {
+        transition: all 1s ease;
+        color: green; }
+      .news .news-contain .news-text a:hover {
+        color: blue; }
+      .news .news-contain .news-text .news-list {
+        margin-bottom: 60px; }
+        .news .news-contain .news-text .news-list .text-title {
+          font-weight: bold;
+          font-size: 18px;
+          width: 100%; }
+          .news .news-contain .news-text .news-list .text-title .title-left {
+            float: left; }
+          .news .news-contain .news-text .news-list .text-title .title-right {
+            float: right; }
+        .news .news-contain .news-text .news-list .text-title::after {
+          content: "";
+          display: block;
+          clear: both; }
+        .news .news-contain .news-text .news-list .text-essay {
+          margin-top: 20px;
+          font-size: 14px; }
+  .news .news-contain::after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.footer {
+  height: 260px;
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-top: 30px; }
+  .footer .footer-contain {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #767676;
+    padding-top: 0; }
+    .footer .footer-contain div {
+      float: none; }
+    .footer .footer-contain .footer-contain-left {
+      text-align: center;
+      width: 100%; }
+      .footer .footer-contain .footer-contain-left p {
+        font-size: 16px;
+        margin-bottom: 5px; }
+      .footer .footer-contain .footer-contain-left a {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        margin: 0 10px; }
+      .footer .footer-contain .footer-contain-left .wb {
+        background-image: url("../img/index-wb.png"); }
+      .footer .footer-contain .footer-contain-left .wx {
+        background-image: url("../img/index-wx.png"); }
+      .footer .footer-contain .footer-contain-left .qq {
+        background-image: url("../img/index-qq.png"); }
+    .footer .footer-contain .footer-contain-center {
+      width: 100%;
+      border-right: none;
+      border-left: none; }
+      .footer .footer-contain .footer-contain-center p {
+        text-indent: 2rem;
+        font-size: 14px; }
+    .footer .footer-contain .footer-contain-right {
+      width: auto; }
+      .footer .footer-contain .footer-contain-right p {
+        text-indent: 2rem;
+        font-size: 14px; }
+
+/*# sourceMappingURL=news-m.css.map */

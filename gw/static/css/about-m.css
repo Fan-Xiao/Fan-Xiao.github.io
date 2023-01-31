@@ -1,0 +1,155 @@
+.header {
+  display: none; }
+
+.header-m {
+  display: block;
+  height: 65px;
+  width: 100%;
+  background-color: #ffffff; }
+  .header-m .header-contain-m {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .header-m .header-contain-m .logo {
+      width: 35%;
+      height: 45%;
+      margin-left: 12px;
+      margin-top: 20px; }
+    .header-m .header-contain-m .nav {
+      transition: all .5s ease;
+      overflow: hidden;
+      height: 0;
+      font-size: 18px;
+      width: 200px;
+      position: absolute;
+      right: 0;
+      background-color: #ffffff80;
+      top: 65px;
+      z-index: 500; }
+      .header-m .header-contain-m .nav .nav-list {
+        margin: 20px auto 20px;
+        text-align: center; }
+        .header-m .header-contain-m .nav .nav-list a {
+          color: #767676; }
+    .header-m .header-contain-m .menu {
+      margin: 20px 10px 0 0;
+      float: right; }
+      .header-m .header-contain-m .menu button {
+        height: 30px;
+        width: 30px;
+        font-size: 18px; }
+
+.team {
+  width: 100%; }
+  .team .team-contain {
+    width: 90%;
+    margin: 50px auto 100px; }
+    .team .team-contain .team-item {
+      width: 100%; }
+      .team .team-contain .team-item .team-list {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px; }
+        .team .team-contain .team-item .team-list .teamimg {
+          width: 100%;
+          height: 400px;
+          background-size: cover;
+          background-position: center;
+          display: inline-block;
+          margin-bottom: 30px; }
+        .team .team-contain .team-item .team-list .team1 {
+          background-image: url("../img/about-team1.png"); }
+        .team .team-contain .team-item .team-list .team2 {
+          background-image: url("../img/about-team2.png"); }
+        .team .team-contain .team-item .team-list .team3 {
+          background-image: url("../img/about-team3.png"); }
+        .team .team-contain .team-item .team-list .team4 {
+          background-image: url("../img/about-team4.png"); }
+        .team .team-contain .team-item .team-list .team-text {
+          margin-top: 30px;
+          float: none;
+          width: 100%;
+          color: #767676;
+          margin-right: 0; }
+          .team .team-contain .team-item .team-list .team-text .tn {
+            font-size: 18px; }
+          .team .team-contain .team-item .team-list .team-text .tj {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 14px; }
+          .team .team-contain .team-item .team-list .team-text .essay {
+            font-size: 12px; }
+    .team .team-contain .team-item::after {
+      content: "";
+      display: block;
+      clear: both; }
+
+.mission {
+  width: 90%;
+  margin: 0 auto 200px;
+  color: #767676;
+  font-size: 14px; }
+  .mission .mission-text1 {
+    width: 100%;
+    text-indent: 2rem;
+    display: inline-block; }
+    .mission .mission-text1 .text-1 {
+      bottom: 20px; }
+  .mission .missionimg {
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/about-msson1.png");
+    background-size: cover; }
+  .mission .mission-text2 {
+    width: 100%;
+    text-indent: 2rem;
+    display: inline-block; }
+
+.footer {
+  height: 260px;
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-top: 30px; }
+  .footer .footer-contain {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #767676;
+    padding-top: 0; }
+    .footer .footer-contain div {
+      float: none; }
+    .footer .footer-contain .footer-contain-left {
+      text-align: center;
+      width: 100%; }
+      .footer .footer-contain .footer-contain-left p {
+        font-size: 16px;
+        margin-bottom: 5px; }
+      .footer .footer-contain .footer-contain-left a {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        margin: 0 10px; }
+      .footer .footer-contain .footer-contain-left .wb {
+        background-image: url("../img/index-wb.png"); }
+      .footer .footer-contain .footer-contain-left .wx {
+        background-image: url("../img/index-wx.png"); }
+      .footer .footer-contain .footer-contain-left .qq {
+        background-image: url("../img/index-qq.png"); }
+    .footer .footer-contain .footer-contain-center {
+      width: 100%;
+      border-right: none;
+      border-left: none; }
+      .footer .footer-contain .footer-contain-center p {
+        text-indent: 2rem;
+        font-size: 14px; }
+    .footer .footer-contain .footer-contain-right {
+      width: auto; }
+      .footer .footer-contain .footer-contain-right p {
+        text-indent: 2rem;
+        font-size: 14px; }
+
+/*# sourceMappingURL=about-m.css.map */
